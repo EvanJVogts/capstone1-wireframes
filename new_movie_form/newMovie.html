@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+      <title>New movie form HTML wireframe</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="newMovie.css">
+  </head>
+
+  <body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+        <header>
+            <h1>New Movie</h1>
+          </header>
+          <section>
+            <form id="newMovie-form">
+              <div class="form-section">
+                <label for="movie-title">Movie title: </label>
+                <input type="text" name="movie-title" placeholder="" required>
+              </div>
+              <div class="form-section">
+                <label for="comments-section">Comments</label>
+                <textarea name="comments-section" rows="10"></textarea>
+              </div>
+              <div class="form-section">
+                <label for="rating">Movie rating: </label>
+                <select type="number" name="rating">
+                  <option>1 star</option>
+                  <option>2 star</option>
+                  <option>3 star</option>
+                  <option>4 star</option>
+                  <option>5 star</option>
+                </select>
+              </div>
+              <div class="form-section">
+                <label for="favorite">Favorite:</p>
+                <input type="radio" name="favorite" class="favorite-radio" checked>
+              </div>
+              <button type="submit">Submit</button>
+              <button type="reset">Reset</button>
+            </form>
+          </section>
+    </main>
+  </body>
+  
+</html>

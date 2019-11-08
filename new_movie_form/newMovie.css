@@ -23,14 +23,14 @@ nav {
 }
 
 header {
-  padding: 10vh;
-  height: 25vh;
+  padding: 2vh;
+  height: 18vh;
 }
 
 section {
-  padding: 50px 25px;
+  padding: 20px 25px;
   background-color: #bbb;
-  margin: 0 20% 0 20%;
+  margin: 0 1% 0 1%;
 }
 
 p {
@@ -40,4 +40,9 @@ p {
 
 .form-section {
   text-align: center;
+}
+
+
+label {
+  display: block;
 }
